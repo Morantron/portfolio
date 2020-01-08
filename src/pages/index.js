@@ -48,7 +48,7 @@ export default () => {
           <ul>
             <li><Link url="https://github.com/morantron" icon="github" /></li>
             <li><Link url="https://twitter.com/morantron" icon="twitter"/></li>
-            <li><Link url="mailto:me@morantron.com" icon="email" /></li>
+            <li><Link url="mailto:hello@morantron.com" icon="email" /></li>
           </ul>
         </div>
       </div>
