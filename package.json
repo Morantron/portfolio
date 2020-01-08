@@ -7,6 +7,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop --host 0.0.0.0",
+    "deploy": "gatsby build && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "eslint-config-react-app": "^5.1.0",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1"
   },
   "repository": {
