@@ -21,6 +21,17 @@ function initializeScene({element, objects, helpers, onRender}) {
     1000
   );
 
+  window.addEventListener( 'resize', onWindowResize, false );
+
+  function onWindowResize(){
+
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+
+    renderer.setSize( window.innerWidth, window.innerHeight );
+
+  }
+
   camera.position.x = 0
   camera.position.y = 0
   camera.position.z = 4
