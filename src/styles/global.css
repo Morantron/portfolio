@@ -19,28 +19,17 @@
   height: 100%;
   flex-direction: column;
   text-shadow: 0px 0px 2px #4e4a59;
+  text-align: center;
 }
 
 .main h1 {
-  text-align: center;
   margin: 0;
   font-size: 4em;
   font-weight: bold;
 }
 
-.main hr {
-  border: 0;
-  border-top: 2px solid white;
-  height: 0;
-  display: block;
-  min-height: 0;
-  margin: 2em;
-  padding: 0;
-  width: 128px;
-  color: white;
-}
-
 .main p {
+  text-align: center;
   font-size: 1.5em;
   margin: 0;
   margin-top: 1em;

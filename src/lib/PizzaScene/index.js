@@ -27,7 +27,10 @@ function initializeScene({element, objects, helpers, onRender}) {
 
   camera.updateProjectionMatrix()
 
-  let renderer = new THREE.WebGLRenderer({ antialias:true });
+  let renderer = new THREE.WebGLRenderer({ antialias: true });
+
+  // this makes edges smooth in all displays ( high density or not )
+  renderer.setPixelRatio( window.devicePixelRatio * 1.5 );
 
   renderer.setClearColor(BG_COLOR);
 
